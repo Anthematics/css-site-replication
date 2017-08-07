@@ -17,12 +17,11 @@ html {
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  background: #fff url("/home/jason/bitmaker/projects/css-site-replication/starter-code/images/bgtile.png")
+  background: #fff url("/home/jason/bitmaker/projects/css-site-replication/starter-code/images/bgtile.png") repeat-x;
+
 }
 
-
 ul{
-    margin-left: 50%;
     text-align: center;
     width: 50%;
   }
@@ -33,12 +32,22 @@ li {
   display: inline-block;
   text-align: center;
 }
+footer>ul{
+  text-align: center;
+  margin-left: 50%;
+  color: rgb(153,153,153);
+}
+main{
+  background: url("../images/frame.png") no-repeat;
+}
+
+
 
 .overallclass{
   margin-top: 10%;
   margin-left: 10%;
   width: 900px;
-  background: url("../images/frame.png") no-repeat;
+
 }
 
 .leftcontainer{
@@ -49,7 +58,6 @@ li {
 .rightcontainer{
   display: inline-block;
   width: 40%;
-  margin-bottom: 100px;
   position:absolute;
 
 }
@@ -65,9 +73,11 @@ width: 40%;
 .appstore{
 display: inline-block;
 position: relative;
-margin-left: 200px;
+float: left;
 }
 
 .content{
   background: white;
+  padding-left: 30px;
+  max-width: 400px;
 }
